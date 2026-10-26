@@ -1,1 +1,3 @@
-﻿# Snapscout
+﻿# SnapAtlas
+
+SnapAtlas is an image-search app where you type a topic and get a responsive grid of matching pictures; in this first part I've built the scaffold and styled interface, and the fetching comes next. I used a sticky sidebar for the search box, Clear button, and quick-pick chips so the controls stay reachable while scrolling a long grid of results. I added a CSS-only empty-state message that disappears as soon as the results container has content, so first-time visitors always know what to do without any JavaScript. The warm sand, teal, and coral palette is defined as CSS variables in `:root`, which makes the theme easy to change in one place. The results grid uses `repeat(auto-fill, minmax(200px, 1fr))` so cards re-flow from phone to widescreen without media queries.

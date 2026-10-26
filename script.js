@@ -1,0 +1,1 @@
+// Behaviour comes in Part 2: fetch and render images
